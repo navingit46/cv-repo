@@ -21,7 +21,7 @@ background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
 }
 
 #Technical_SKills{
-  padding-top: 70px;
+  padding-top: 52px;
 }
 #Education{
   padding-top: 70px;
@@ -52,15 +52,16 @@ background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
               grid-template-columns: auto auto auto ;
               grid-column-gap: 20px;
               grid-row-gap: 20px;
-              background-color: #b1d2f9;
-              padding: 12px;
+              background-color: white;
+              padding: 10px;
           }
 
 .grid-container > div {
-              background-color: white;
+              background-color: #7f94ff;
               text-align: center;
               padding: 10px 0;
-              font-size: 25px;
+              font-size: 15px;
+              color:black;
 
           }
 
@@ -305,4 +306,6 @@ a.socialIcon:hover, .socialHoverClass {
 }
 footer{
   padding:5px;
+  background: linear-gradient(to left, #99ccff 0%, #ffffff 50%);
+
 }
