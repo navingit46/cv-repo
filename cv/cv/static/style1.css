@@ -1,14 +1,17 @@
 body{
-  position: relative;
+  position:absolute;
+  margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 .jumbotron{
-         height : 430px;
+         height : auto;
          color:white;
 
 }
 #grad {
-  background-color: #89d4cf;
+  /* background-color: #89d4cf; */
+padding-top: 70px;
 background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
 
 }
@@ -17,7 +20,7 @@ background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
 }
 
 #Professional_Experience{
-  padding-top: 70px;
+  padding-top: 80px;
 }
 
 #Technical_SKills{
@@ -225,6 +228,12 @@ background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
 }
 
 
+
+
+
+/* 111 */
+
+
 /* footer social media  icons styling */
 /* Style all font awesome icons */
 
@@ -309,3 +318,6 @@ footer{
   background: linear-gradient(to left, #99ccff 0%, #ffffff 50%);
 
 }
+
+
+/* topnav */
